@@ -2,7 +2,7 @@ package com.mindex.challenge.data;
 
 public class ReportingStructure {
 
-    private String employee;
+    private Employee employee;
 
     //equal the total number of reports under a given employee
     private Integer numberOfReports;
@@ -10,18 +10,17 @@ public class ReportingStructure {
 
     public ReportingStructure(){
     }
-
-    public ReportingStructure(String employee, Integer numberOfReports) {
+    
+    public ReportingStructure(Employee employee) {
         this.employee = employee;
-        this.numberOfReports = numberOfReports;
+        this.numberOfReports = 0;
     }
 
-
-    public String getEmployee() {
+    public Employee getEmployee() {
         return employee;
     }
 
-    public void setEmployee(String employee) {
+    public void setEmployee(Employee employee) {
         this.employee = employee;
     }
 
@@ -36,7 +35,7 @@ public class ReportingStructure {
     @Override
     public String toString() {
         return "ReportingStructure{" +
-                "employee='" + employee + '\'' +
+                "employee=" + employee +
                 ", numberOfReports=" + numberOfReports +
                 '}';
     }

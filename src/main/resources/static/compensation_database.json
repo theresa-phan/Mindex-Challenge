@@ -1,0 +1,35 @@
+[
+  {
+    "employee" : {
+      "employeeId" : "62c1084e-6e34-4630-93fd-9153afb65309",
+      "firstName" : "Peter",
+      "lastName" : "Rabbit",
+      "position" : "Developer II",
+      "department" : "Engineering"
+    },
+    "salary" : 90000,
+    "effectiveDate" : "11-11-1111"
+  },
+  {
+    "employee" : {
+      "employeeId" : "b7839309-3348-463b-a7e3-5de1c168beb3",
+      "firstName" : "Paul",
+      "lastName" : "McCardney",
+      "position" : "Developer I",
+      "department" : "Engineering"
+    },
+    "salary" : 100000,
+    "effectiveDate" : "12-29-2022"
+  },
+  {
+    "employee" : {
+      "employeeId" : "03aa1462-ffa9-4978-901b-7c001562cf6f",
+      "firstName" : "Bingo",
+      "lastName" : "Stamp",
+      "position" : "Developer V",
+      "department" : "Engineering"
+    },
+    "salary" : 200000,
+    "effectiveDate" : "01-30-2019"
+  }
+]

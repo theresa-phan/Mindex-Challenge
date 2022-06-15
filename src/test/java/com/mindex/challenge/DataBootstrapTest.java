@@ -27,4 +27,24 @@ public class DataBootstrapTest {
         assertEquals("Development Manager", employee.getPosition());
         assertEquals("Engineering", employee.getDepartment());
     }
+
+    @Test
+    public void employeeTest() {
+        Employee employee = employeeRepository.findByEmployeeId("72b345ui-pll4-8623-88hj-p1234j72j93k");
+        assertNotNull(employee);
+        assertEquals("Captain", employee.getFirstName());
+        assertEquals("America", employee.getLastName());
+        assertEquals("Super Soldier", employee.getPosition());
+        assertEquals("Special Ops", employee.getDepartment());
+    }
+
+    @Test
+    public void compensationTest() {
+        Employee employee = employeeRepository.findByEmployeeId("99j636mh-skf9-2929-77lk-q0987y45h88a");
+        assertNotNull(employee);
+        assertEquals("Matt", employee.getFirstName());
+        assertEquals("Murdock", employee.getLastName());
+        assertEquals("Lawyer", employee.getPosition());
+        assertEquals("Justice", employee.getDepartment());
+    }
 }

@@ -3,12 +3,9 @@ package com.mindex.challenge.data;
 public class ReportingStructure {
 
     private Employee employee;
-
-    //equal the total number of reports under a given employee
     private Integer numberOfReports;
 
-
-    public ReportingStructure(){
+    public ReportingStructure() {
     }
     
     public ReportingStructure(Employee employee) {

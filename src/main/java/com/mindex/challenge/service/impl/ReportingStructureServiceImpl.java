@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class ReportingStructureServiceImpl implements ReportingStructureService {
 
-    private static final Logger LOG = LoggerFactory.getLogger(EmployeeServiceImpl.class);
+    private static final Logger LOG = LoggerFactory.getLogger(ReportingStructureServiceImpl.class);
 
     @Autowired
     private EmployeeRepository employeeRepository;
@@ -40,7 +40,6 @@ public class ReportingStructureServiceImpl implements ReportingStructureService 
 
         return total;
     }
-
 
     public ReportingStructure read(String id) {
 
